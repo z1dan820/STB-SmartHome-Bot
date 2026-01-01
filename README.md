@@ -59,7 +59,7 @@ Adaptor STB: Pastikan adaptornya ori/stabil karena relay butuh daya saat "klik".
    
 Secara umum, koneksinya adalah sebagai berikut:
 ```bash
-   Pin Modul Relay | Pin di STB
+ **Pin Modul Relay | Pin di STB**
        VCC         |     Pin 5V 
        GND         | Pin Ground (GND) 
    IN (Signal)     | Pin GPIO (Misal: GPIO 496)
