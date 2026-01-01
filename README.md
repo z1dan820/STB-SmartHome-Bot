@@ -26,3 +26,21 @@ cd STB-SmartHome-Bot
 chmod +x install.sh
 ./install.sh
 ```
+**⚙️ Konfigurasi**
+
+Sebelum dijalankan, kamu wajib memasukkan Token Bot:
+
+Ketik ```bash nano main.py```
+Cari baris API_TOKEN dan masukkan token dari BotFather.
+Cari baris ALLOWED_ID dan masukkan ID Telegram kamu (Cek di @userinfobot).
+Sesuaikan LAMP_PIN dengan GPIO STB kamu.
+Save (Ctrl+X, Y, Enter).
+
+**▶️ Cara Menjalankan**
+
+```bash python3 main.py```
+
+Agar jalan otomatis saat STB nyala (Auto-start), tambahkan ke /etc/rc.local.
+
+***🤝 Support***
+Jika bermanfaat, jangan lupa Subscribe channel YouTube saya: Fahrul Hamzidan Pulungan 
